@@ -1,5 +1,4 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+
 <span style = "color:#808080"> 허락을 받지 않았지만 타 수강생 분들의 github 덕에 완성할 수 있었습니다. </span>
 
 ---
