@@ -37,3 +37,7 @@ in `lib/`, and example unit test in `test/`.
 - **속성**
     - 상품 이름 (`String`)
     - 상품 1개당 가격 (`int`)
+
+---
+
+필수 구현 완료
