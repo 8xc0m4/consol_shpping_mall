@@ -39,7 +39,7 @@ class ShoppingMall {
 
     totalPrice += matched.price * quantity; //상품 가격*수량만큼 총 금액에 더하기
     cartItems.add('${matched.name} x$quantity'); //장바구니에 있는것들의 이름과 수량을 알려줌
-    print('✅ 장바구니에 상품이 담겼어요 ! ✅');
+    print('✅ 장바구니에 상품이 담겼어요 !✅');
   }
 
   void showTotal() {
@@ -48,7 +48,7 @@ class ShoppingMall {
       //장바구니에 상품이 1개 이상이면 '상품이름'과 총 가격을 출력
       print(
           '✅ 장바구니에 ${cartItems.join(', ')}가 담겨있어요 ! 총 ${totalPrice}원 어치를 담으셨네요 ! ✅');
-      print('❗장바구니를 비우시려면 ➡️ 6 ⬅️을 눌러주세요.❗');
+      print('❗장바구니를 비우시려면 [6] 을 눌러주세요.❗');
     } else {
       //없으면 비었다고 알려줌
       print('🌧️ 장바구니가 비어있습니다. 🌧️');

@@ -38,7 +38,7 @@ void main() {
       print(item); //그 item을 출력해서 보여줌
       // print(); 를 사용해서 만들면 print('[1]...'), print('[2]...')...이렇게 하나씩 다 써야함, 그리고 메뉴(위 List부분)를 추가하기 쉬움
     }
-    stdout.write('✏️ 번호 입력: '); // 입력창, 사용자의 입력을 같은 줄에 받기위해 사용, 사용자가 볼 때 보기 편함
+    stdout.write('✏️  번호 입력: '); // 입력창, 사용자의 입력을 같은 줄에 받기위해 사용, 사용자가 볼 때 보기 편함
     String? input = stdin.readLineSync(); //print를 사용하면 줄이 바뀜
     //null(?)을 사용한 이유는 아무 입력을 받지 않았을 때 입력이 유효한지 확인하기 위해 사용
 
@@ -49,10 +49,10 @@ void main() {
         break;
 
       case '2':
-        stdout.write('✏️ 상품 이름 입력: '); //사용자에게 입력해달라고 함, 위와 같이 같은 줄에 입력
+        stdout.write('✏️  상품 이름 입력: '); //사용자에게 입력해달라고 함, 위와 같이 같은 줄에 입력
         String? name = //상품 이름 입력 받기
             stdin.readLineSync(encoding: Encoding.getByName('utf-8')!);
-        stdout.write('✏️ 수량 입력: '); // 사용자에게 상품 수량 입력 요청
+        stdout.write('✏️  수량 입력: '); // 사용자에게 상품 수량 입력 요청
         String? qty = stdin.readLineSync(); //상품 수량 입력 받음
 
         if (name == null || qty == null) {
