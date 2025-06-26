@@ -33,7 +33,7 @@ class ShoppingMall {
 
     if (quantity <= 0) {
       //수량이 0개 이하면 오류메세지 출동
-      print('0개보다 많은 개수의 상품만 담을 수 있어요 !');
+      print('⚠️ 0개보다 많은 개수의 상품만 담을 수 있어요 ! ⚠️');
       return;
     }
 
