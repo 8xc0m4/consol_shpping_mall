@@ -1,5 +1,4 @@
-<img src="https://img.shields.io/badge/c0m4-02569B?style=for-the-badge&logo=flutter&logoColor=white">
-<img src="https://img.shields.io/badge/c0m4-0175C2?style=for-the-badge&logo=dart&logoColor=white">
+<img src="https://img.shields.io/badge/dart-0175C2?style=for-the-badge&logo=dart&logoColor=white">
 ---
 
 ## [Dart 기초] 개인 과제 - 콘솔 쇼핑몰
