@@ -27,7 +27,7 @@ class ShoppingMall {
 
     if (matched.name == '') {
       //일치하는 상품이 없으면 경고메세지 출동
-      print('입력값이 올바르지 않아요 !');
+      print('⚠️입력값이 올바르지 않아요 ! ⚠️');
       return; //다시
     }
 
